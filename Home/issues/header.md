@@ -1,7 +1,12 @@
 # 🐛 Issues encontrados no Header
 
-[Issue 01](#is01---espaçamento-entre-botões)\
+[Issue 01](#is01---espaçamento-entre-botões)
+
 [Issue 02](#is02---icon-com-problema-no-hover)
+
+[Issue 03](#is03---logo-da-focus-decentralizada-mobile)
+
+[Issue 04](#is04---menu-hambúrguer-sendo-implementado-de-maneira-errada)
 
 Link do site: [Página Home](https://www.consultoriafocus.com/)\
 Link do Figma: [Design do site](https://www.figma.com/design/SehjtDfPtPl2RalCmmxqUp/site-da-focus?node-id=728-564&t=yZ4q9iILItusUrXW-1)
@@ -63,15 +68,18 @@ Ajustes no header para que o espaçamento lateral possa ser resolvido e a logo s
 
 ----
 
-### [IS04] - Menu hambúrguer sendo implementado de maneira errada
+### [IS04] - Menu hambúrguer sendo implementado de maneira errada (mobile)
 
 **Descrição:**\
-Se considerando o design proposto, o menu hambúrguer que hoje está sendo implementado não segue o estabelecido.
+Se considerando o design proposto, o menu hambúrguer que hoje está sendo implementado na versão mobile não segue o estabelecido.
 
 **Evidência de Implementação:**
 
 ![Evidência do menu: implementação](/Home/issues/assets/header/menu1.png)
 
-**Evidencia do Design:** \
+**Evidencia do Design:**
 
 ![Evidência do menu: design](/Home/issues/assets/header/menu2.png)
+
+**Alteração Sugerida:**\
+Sem muita certeza se há como reaproveitar a estrutura atual do menu, acredito que a melhor forma de resolver o problema seja refazendo a implementação dele.
