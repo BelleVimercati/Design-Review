@@ -1,12 +1,9 @@
 # 🐛 Issues encontrados no Header
 
-[Issue 01](#is01---espaçamento-entre-botões)
-
-[Issue 02](#is02---icon-com-problema-no-hover)
-
-[Issue 03](#is03---logo-da-focus-decentralizada-mobile)
-
-[Issue 04](#is04---menu-hambúrguer-sendo-implementado-de-maneira-errada)
+[Issue 01](#is01---espaçamento-entre-botões)\
+[Issue 02](#is02---icon-com-problema-no-hover)\
+[Issue 03](#is03---logo-da-focus-decentralizada-mobile)\
+[Issue 04](#is04---menu-hambúrguer-sendo-implementado-de-maneira-errada-mobile)\
 
 Link do site: [Página Home](https://www.consultoriafocus.com/)\
 Link do Figma: [Design do site](https://www.figma.com/design/SehjtDfPtPl2RalCmmxqUp/site-da-focus?node-id=728-564&t=yZ4q9iILItusUrXW-1)
