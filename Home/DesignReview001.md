@@ -23,6 +23,7 @@ O objetivo deste documento é identificar e registrar todas as discrepâncias en
 6. Cores
 7. Posicionamento
 8. Icons/Decoração
+9. Menu
 
 ### ⚠️ Ponto de Atenção
 
@@ -30,34 +31,34 @@ A página home como um todo está tendendo a não respirar os espaços em branco
 
 ## Review das partes
 
-| código | seção           | cenário        | descrição                                                            | evidência | status |
-| :----: | --------------- | -------------- | -------------------------------------------------------------------- | :-------: | :----: |
-|  DR01  | Header          | Espaçamento    | O espaçamento entre os botões do menu está errado                    |   IS01    |   ➖   |
-|  DR02  | Header          | Icons          | O hover no botão "fale com especialista" some com o icon de WhatsApp |   IS02    |   ➖   |
-|  DR03  | Banner          | Tipografia     | Título com tipografia errada errada                                  |           |   ➖   |
-|  DR04  | Banner          | Texto          | Texto do botão de contato errado                                     |           |   ➖   |
-|  DR05  | Banner          | Texto          | Texto do botão de contato errado                                     |           |   ➖   |
-|  DR06  | Banner          | Decoração      | Barra vertical decorativa não implementada                           |           |   ➖   |
-|  DR07  | Conheça a Focus | Texto          | Título com texto incompleto                                          |           |   ➖   |
-|  DR08  | Conheça a Focus | Tipografia     | Título com tipografia errada                                         |           |   ➖   |
-|  DR09  | Conheça a Focus | Proporção      | Imagem colocada com proporção diferente do design                    |           |   ➖   |
-|  DR10  | Nossos Clientes | Tipografia     | Título com tipografia errada                                         |           |   ➖   |
-|  DR11  | Nossos Clientes | Texto          | Título com texto alterado                                            |           |   ➖   |
-|  DR12  | Nossos Clientes | Posicionamento | Fade implementado apenas do lado esquerdo                            |           |   ➖   |
-|  DR13  | Formulário      | Tipografia     | Título com tipografia errada                                         |           |   ➖   |
-|  DR14  | Formulário      | Cores          | Card com cores erradas                                               |           |   ➖   |
-|  DR15  | Formulário      | Cores          | Inputs com cores erradas                                             |           |   ➖   |
-|  DR16  | Formulário      | Proporção      | Input de mensagem dimensionada errada                                |           |   ➖   |
-|  DR17  | Soluções        | Texto          | Subtítulo não sendo implementado e juntando com parágrafo            |           |   ➖   |
-|  DR18  | Soluções        | Espaçamento    | Espaço entre texto e links faltando                                  |           |   ➖   |
-|  DR19  | Soluções        | Espaçamento    | Espaço entre texto e links faltando                                  |           |   ➖   |
-|  DR20  | Depoimentos     | Tipografia     | Título com tipografia errada                                         |           |   ➖   |
-|  DR21  | Depoimentos     | Posicionamento | Título de seção não centralizado                                     |           |   ➖   |
-|  DR22  | Depoimentos     | Posicionamento | Título de seção não centralizado                                     |           |   ➖   |
-|  DR23  | Depoimentos     | Tipografia     | Tipografia do card errada                                            |           |   ➖   |
-|  DR24  | Depoimentos     | Tipografia     | Tipografia do card (nome da pessoa) errada                           |           |   ➖   |
-|  DR25  | Depoimentos     | Tipografia     | Tipografia do card com tamanho errado                                |           |   ➖   |
-|  DR26  | Depoimentos     | Cores          | Tipografia do card com cor errada                                    |           |   ➖   |
-|  DR27  | Depoimentos     | Texto          | Texto de cargo do depoente errado                                    |           |   ➖   |
-
-card cores
+| código | seção           | cenário        | descrição                                                            | Dispositivo |                                        evidência                                        | status |
+| :----: | --------------- | -------------- | -------------------------------------------------------------------- | ----------- | :-------------------------------------------------------------------------------------: | :----: |
+|        | Header          | Espaçamento    | O espaçamento entre os botões do menu está errado                    | Desktop     | [IS01](https://github.com/BelleVimercati/Design-Review/blob/main/Home/issues/header.md) |   ➖   |
+|        | Header          | Icons          | O hover no botão "fale com especialista" some com o icon de WhatsApp | Desktop     | [IS02](https://github.com/BelleVimercati/Design-Review/blob/main/Home/issues/header.md) |   ➖   |
+|        | Header          | Icons          | Logo da Focus descentralizada                                        | Mobile      | [IS03](https://github.com/BelleVimercati/Design-Review/blob/main/Home/issues/header.md) |   ➖   |
+|        | Header          | Menu           | Menu hambúrguer implementado de forma diferente                      | Mobile      | [IS04](https://github.com/BelleVimercati/Design-Review/blob/main/Home/issues/header.md) |   ➖   |
+|        | Banner          | Tipografia     | Título com tipografia errada                                         |             |                                                                                         |   ➖   |
+|        | Banner          | Texto          | Texto do botão de contato errado                                     |             |                                                                                         |   ➖   |
+|        | Banner          | Texto          | Texto do botão de contato errado                                     |             |                                                                                         |   ➖   |
+|        | Banner          | Decoração      | Barra vertical decorativa não implementada                           |             |                                                                                         |   ➖   |
+|        | Conheça a Focus | Texto          | Título com texto incompleto                                          |             |                                                                                         |   ➖   |
+|        | Conheça a Focus | Tipografia     | Título com tipografia errada                                         |             |                                                                                         |   ➖   |
+|        | Conheça a Focus | Proporção      | Imagem colocada com proporção diferente do design                    |             |                                                                                         |   ➖   |
+|        | Nossos Clientes | Tipografia     | Título com tipografia errada                                         |             |                                                                                         |   ➖   |
+|        | Nossos Clientes | Texto          | Título com texto alterado                                            |             |                                                                                         |   ➖   |
+|        | Nossos Clientes | Posicionamento | Fade implementado apenas do lado esquerdo                            |             |                                                                                         |   ➖   |
+|        | Formulário      | Tipografia     | Título com tipografia errada                                         |             |                                                                                         |   ➖   |
+|        | Formulário      | Cores          | Card com cores erradas                                               |             |                                                                                         |   ➖   |
+|        | Formulário      | Cores          | Inputs com cores erradas                                             |             |                                                                                         |   ➖   |
+|        | Formulário      | Proporção      | Input de mensagem dimensionada errada                                |             |                                                                                         |   ➖   |
+|        | Soluções        | Texto          | Subtítulo não sendo implementado e juntando com parágrafo            |             |                                                                                         |   ➖   |
+|        | Soluções        | Espaçamento    | Espaço entre texto e links faltando                                  |             |                                                                                         |   ➖   |
+|        | Soluções        | Espaçamento    | Espaço entre texto e links faltando                                  |             |                                                                                         |   ➖   |
+|        | Depoimentos     | Tipografia     | Título com tipografia errada                                         |             |                                                                                         |   ➖   |
+|        | Depoimentos     | Posicionamento | Título de seção não centralizado                                     |             |                                                                                         |   ➖   |
+|        | Depoimentos     | Posicionamento | Título de seção não centralizado                                     |             |                                                                                         |   ➖   |
+|        | Depoimentos     | Tipografia     | Tipografia do card errada                                            |             |                                                                                         |   ➖   |
+|        | Depoimentos     | Tipografia     | Tipografia do card (nome da pessoa) errada                           |             |                                                                                         |   ➖   |
+|        | Depoimentos     | Tipografia     | Tipografia do card com tamanho errado                                |             |                                                                                         |   ➖   |
+|        | Depoimentos     | Cores          | Tipografia do card com cor errada                                    |             |                                                                                         |   ➖   |
+|        | Depoimentos     | Texto          | Texto de cargo do depoente errado                                    |             |                                                                                         |   ➖   |
